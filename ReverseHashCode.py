@@ -3,9 +3,9 @@ letters ="acdegilmnoprstuw"
 def HashFunction(x):
 
 	ResultStr=""
-	StringLength=7
 	i=0
-	while i<StringLength:
+	b=1
+	while b!=7:
 		a = x%37
 		b = x/37
 		ResultStr = ResultStr +letters[a]
