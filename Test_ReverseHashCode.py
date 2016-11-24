@@ -13,7 +13,7 @@ def test_RepetitiveLetterString():					##This test will check the repetitive let
 	assert 'ccccc' == ReverseHashCode.HashFunction(487333920)
 
 
-def test_HasFunction():								##This test will check the random string
+def test_HasFunction():								##This test will check the random strings
 	assert 'leepadg' == ReverseHashCode.HashFunction(680131659347)
 
 
