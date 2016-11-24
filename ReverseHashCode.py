@@ -23,5 +23,5 @@ def HashFunction(x):
 
 
 
-HashString = 1311
+HashString = 680131659347
 print "String : "+HashFunction(HashString)
